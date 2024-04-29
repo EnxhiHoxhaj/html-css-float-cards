@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Fredoka;
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.row{
+    width: 33.3%;
+    display: inline-block;
+}
+
+.foto{
+    width: 35%;
+    float: left;
+}
+
+.info{
+    width: 65%;
+    float:right
+}
+
+.card.2{
+    float: left;
+}
+.card.3{
+    float:right
+}
+header{
+    margin-top: 25px;
+    margin-bottom: 40px;
+    color: rgb(255, 0, 149);
+}
+
+#intro{
+    margin-bottom: 40px;
+}
