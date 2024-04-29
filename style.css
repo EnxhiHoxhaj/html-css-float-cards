@@ -6,7 +6,7 @@
 
 body{
     font-family: Fredoka;
-    width: 70%;
+    width: 80%;
     height: 80%;
     margin: auto;
     text-align: center;
@@ -27,26 +27,26 @@ header{
     margin-bottom: 40px;
 }
 .card{
-    margin: 20px;
-    width: calc(70%/3);
+    width: calc(99% / 3);
     background-color: black;
     display: inline-block;
-}
- .card.terza{
-    float:right
- }
+    margin-bottom: 20px;
+    height: 100px;
 
+}
 
 .info{
-    width: 65%;
+    width: 70%;
     display: inline;
     float:right;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 img{
     float: left;
-    width: 30%;
-    float: left;
+    height: 100%;
 }
 
 .nome,.posizione{
@@ -58,4 +58,8 @@ img{
 .email{
     color: aqua;
     font-weight: lighter;
+}
+
+#riga{
+    width: 100%;
 }
