@@ -17,22 +17,6 @@ body{
     display: inline-block;
 }
 
-.foto{
-    width: 35%;
-    float: left;
-}
-
-.info{
-    width: 65%;
-    float:right
-}
-
-.card.2{
-    float: left;
-}
-.card.3{
-    float:right
-}
 header{
     margin-top: 25px;
     margin-bottom: 40px;
@@ -41,4 +25,37 @@ header{
 
 #intro{
     margin-bottom: 40px;
+}
+.card{
+    margin: 20px;
+    width: calc(70%/3);
+    background-color: black;
+    display: inline-block;
+}
+ .card.terza{
+    float:right
+ }
+
+
+.info{
+    width: 65%;
+    display: inline;
+    float:right;
+}
+
+img{
+    float: left;
+    width: 30%;
+    float: left;
+}
+
+.nome,.posizione{
+    color: white;
+}
+.posizione{
+    font-weight: lighter;
+}
+.email{
+    color: aqua;
+    font-weight: lighter;
 }
