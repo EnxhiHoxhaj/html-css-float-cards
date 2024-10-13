@@ -2,10 +2,10 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Fredoka;
 }
 
-body{
-    font-family: Fredoka;
+main{
     width: 80%;
     height: 80%;
     margin: auto;
@@ -17,31 +17,38 @@ header{
     color: rgb(255, 0, 149);
 }
 
+h1 {
+    font-size: 40px;
+}
+
 #intro{
-    margin-bottom: 40px;
-    margin-top: 40px;
-    color: black;
+    margin: 40px 0;
+    color: rgb(34, 34, 34);
+    font-size: 18px;
 }
 .card{
-    width: calc(99% / 3);
+    width: calc(99% / 3 - 15px);
     background-color: black;
     display: inline-block;
-    margin-bottom: 20px;
-    height: 120px;
-
+    margin:0 15px 15px 0;
+    height: auto;
 }
 
 .info{
-    width: 70%;
+    width: 60%;
     display: inline;
     float:right;
     text-align: left;
-    padding: 10px;
+    padding: 10px 0 0 25px;
+}
+
+.picture{
+    width: 40%;
 }
 
 img{
     float: left;
-    height: 100%;
+    width: 100%;
 }
 
 .nome,.posizione{
@@ -49,7 +56,7 @@ img{
 }
 .nome{
     font-size: 30;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 .posizione{
     font-size: 15px;
@@ -58,8 +65,4 @@ img{
 .email{
     color: aqua;
     font-weight: lighter;
-}
-
-#riga{
-    width: 100%;
 }
