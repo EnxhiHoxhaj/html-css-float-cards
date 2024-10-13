@@ -12,26 +12,22 @@ body{
     text-align: center;
 }
 
-.row{
-    width: 33.3%;
-    display: inline-block;
-}
-
 header{
     margin-top: 25px;
-    margin-bottom: 40px;
     color: rgb(255, 0, 149);
 }
 
 #intro{
     margin-bottom: 40px;
+    margin-top: 40px;
+    color: black;
 }
 .card{
     width: calc(99% / 3);
     background-color: black;
     display: inline-block;
     margin-bottom: 20px;
-    height: 100px;
+    height: 120px;
 
 }
 
@@ -40,8 +36,7 @@ header{
     display: inline;
     float:right;
     text-align: left;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
 }
 
 img{
@@ -52,8 +47,13 @@ img{
 .nome,.posizione{
     color: white;
 }
+.nome{
+    font-size: 30;
+    margin-bottom: 15px;
+}
 .posizione{
-    font-weight: lighter;
+    font-size: 15px;
+    margin-bottom: 10px;
 }
 .email{
     color: aqua;
